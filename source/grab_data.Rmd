@@ -1,0 +1,48 @@
+---
+output: github_document
+---
+
+
+# Grabbing the flights data
+
+> My cousin is getting married in Kansas City in May and I need to book flights from Baltimore to Kansas City. I want to decide which airline to pick, which weekday to depart, and what time of day to leave so that the chances of my flight being cancelled or delayed are the smallest. Which airline should I pick, which day of the week should I depart on, and around when during the day should I depart?
+
+I'd like to grab data on flights from Baltimore to Kansas City to help me decide which one to book. Since this flight is in May, to try to get historically relevant data, I'll grab data from May in last year (2021).
+
+First loading the packages I'll need,
+
+```{r, message = FALSE, warning = FALSE}
+# grab flight data from any year or airport
+library(anyflights)
+
+# general tools to work with data
+library(tidyverse)
+```
+
+Now, querying the data,
+
+```{r, eval = FALSE}
+bwi_flights <- 
+  get_flights(
+    station = "BWI",
+    year = 2021,
+    month = 5,
+    dir = "source"
+  )
+```
+
+```{r, echo = FALSE}
+load("source/flights.Rda")
+
+bwi_flights <- flights
+```
+
+Taking a glimpse at the data,
+
+```{r}
+# take a look by column
+glimpse(bwi_flights)
+
+# take a look by rows
+head(bwi_flights)
+```
