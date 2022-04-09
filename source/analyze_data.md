@@ -9,7 +9,7 @@
 > and around when during the day should I depart?
 
 Now that we’ve [downloaded the
-data](https://github.com/simonpcouch/gwc-bmore-2022/blob/master/source/grad_data.md),
+data](https://github.com/simonpcouch/gwc-bmore-2022/blob/main/source/grad_data.md),
 we can analyze it to get at these questions.
 
 First loading the packages I’ll need,
