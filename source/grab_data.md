@@ -4,9 +4,9 @@
 > My cousin is getting married in Kansas City in May and I need to book
 > flights from Baltimore to Kansas City. I want to decide which airline
 > to pick, which weekday to depart, and what time of day to leave so
-> that the chances of my flight being cancelled or delayed are the
-> smallest. Which airline should I pick, which day of the week should I
-> depart on, and around when during the day should I depart?
+> that so that the I have the least chance of my plane being delayed.
+> Which airline should I pick, which day of the week should I depart on,
+> and around when during the day should I depart?
 
 I’d like to grab data on flights from Baltimore to Kansas City to help
 me decide which one to book. Since this flight is in May, to try to get
@@ -80,3 +80,7 @@ head(bwi_flights)
     ## # … with 11 more variables: arr_delay <dbl>, carrier <chr>, flight <int>,
     ## #   tailnum <chr>, origin <chr>, dest <chr>, air_time <dbl>, distance <dbl>,
     ## #   hour <dbl>, minute <dbl>, time_hour <dttm>
+
+Each row is a flight that left BWI (note: we don’t have cancelled ones),
+and each column is some piece of information about that flights
+departure: time, date, departure delay, destination, etc.

@@ -4,7 +4,7 @@ Some source code and resources for hanging out with Baltimore's GWC chapter in A
 
 ### Exercise
 
-> My cousin is getting married in Kansas City in May and I need to book flights from Baltimore to Kansas City. I want to decide which airline to pick, which weekday to depart, and what time of day to leave so that the chances of my flight being cancelled or delayed are the smallest. Which airline should I pick, which day of the week should I depart on, and around when during the day should I depart?
+> My cousin is getting married in Kansas City in May and I need to book flights from Baltimore to Kansas City. I want to decide which airline to pick, which weekday to depart, and what time of day to leave so that the I have the least chance of my plane being delayed. Which airline should I pick, which day of the week should I depart on, and around when during the day should I depart?
 
 Source code:
 
