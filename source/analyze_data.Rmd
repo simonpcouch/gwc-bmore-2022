@@ -7,7 +7,7 @@ output: github_document
 
 > My cousin is getting married in Kansas City in May and I need to book flights from Baltimore to Kansas City. I want to decide which airline to pick, which weekday to depart, and what time of day to leave so that so that the I have the least chance of my plane being delayed. Which airline should I pick, which day of the week should I depart on, and around when during the day should I depart?
 
-Now that we've [downloaded the data](https://github.com/simonpcouch/gwc-bmore-2022/blob/master/source/grad_data.md), we can analyze it to get at these questions.
+Now that we've [downloaded the data](https://github.com/simonpcouch/gwc-bmore-2022/blob/main/source/grad_data.md), we can analyze it to get at these questions.
 
 First loading the packages I'll need,
 
