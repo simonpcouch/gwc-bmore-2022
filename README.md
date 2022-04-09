@@ -9,7 +9,7 @@ Some source code and resources for hanging out with Baltimore's GWC chapter in A
 Source code:
 
 * [Download the data](https://github.com/simonpcouch/gwc-bmore-2022/blob/main/source/grad_data.md)
-* Analyze it
+* [Analyze it](https://github.com/simonpcouch/gwc-bmore-2022/blob/main/source/analyze_data.md)
 
 ### People I work with + admire
 
